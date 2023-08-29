@@ -44,25 +44,32 @@ const Contact = () => {
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							I appreciate your desire to reach out to me. Your
-							feedback, questions, and suggestions are all valued.
-							For specific inquiries or remarks, you're welcome to
-							directly email me at &nbsp;{" "}
+							Thank you for your interest in getting in touch with
+							me. I welcome your feedback, questions, and
+							suggestions. If you have a specific question or
+							comment, please feel free to email me directly at
+							&nbsp;{" "}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							. I make it a point to reply to all messages within
-							24 hours, although there might be slight delays
-							during busier periods. An alternative way to get in
-							touch is by utilizing the contact form on my
-							website. Just complete the necessary fields, and
-							I'll respond promptly. Should you prefer a social
-							media connection, I can be located on [Instagram
-							handle omitted]. I frequently share updates and
-							interact with my audience there, so please don't
-							hesitate to get in contact. Your interest is greatly
-							appreciated, and I'm eagerly anticipating your
-							communication.{" "}
+							. I make an effort to respond to all messages within
+							24 hours, although it may take me longer during busy
+							periods. Alternatively, you can use the contact form
+							on my website to get in touch. Simply fill out the
+							required fields and I'll get back to you as soon as
+							possible. Finally, if you prefer to connect on
+							social media, you can find me on{" "}
+							<a
+								href={INFO.socials.instagram}
+								target="_blank"
+								rel="noreferrer"
+							>
+								{INFO.socials.instagram}
+							</a>
+							. I post regular updates and engage with my
+							followers there, so don't hesitate to reach out.
+							Thanks again for your interest, and I look forward
+							to hearing from you!
 						</div>
 					</div>
 
