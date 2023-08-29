@@ -39,21 +39,31 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Creations I've crafted in my attempt to leave a
+							mark.
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							In addition to my individual coding pursuits, I have
+							also gained valuable experiences in teamwork,
+							collaboration, and effective communication through
+							my participation in the General Assembly Coding
+							Bootcamp. This immersive learning environment
+							provided me with the opportunity to collaborate with
+							fellow aspiring developers on diverse projects.
+							Engaging in group coding projects allowed me to
+							refine my teamwork skills, enhance code integration
+							practices, and learn the art of merging different
+							coding styles seamlessly. The experience of working
+							within a team further strengthened my ability to
+							communicate complex technical concepts in a clear
+							and concise manner, fostering a collaborative
+							atmosphere that enabled us to tackle challenges
+							collectively. These experiences have not only
+							broadened my technical skill set but have also
+							instilled in me a profound appreciation for the
+							collective synergy that emerges when diverse minds
+							converge to achieve a common coding goal.
 						</div>
 
 						<div className="projects-list">

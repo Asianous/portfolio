@@ -8,18 +8,19 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
+// import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+// import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -115,12 +116,12 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -131,26 +132,6 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -169,8 +150,7 @@ const Homepage = () => {
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
-
-						<div className="homepage-after-title">
+						{/* <div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -187,12 +167,10 @@ const Homepage = () => {
 									</div>
 								))}
 							</div>
-
-							<div className="homepage-works">
-								<Works />
-							</div>
+						</div> */}
+						<div className="homepage-works">
+							<Works />
 						</div>
-
 						<div className="page-footer">
 							<Footer />
 						</div>
