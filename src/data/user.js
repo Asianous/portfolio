@@ -29,7 +29,7 @@ const INFO = {
 
 	projects: [
 		{
-			title: "FitBuddy - Fitness Tracker",
+			title: "FitBuddy - A Fitness Tracker/Exercise App",
 			description:
 				"Developed a user-centric fitness app for easy access to a diverse exercise collection. Included precise mapping to track running routes, user-friendly exercise creation forms with details and image uploads, and seamless workout session logging, irrespective of the exercise source.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
@@ -56,9 +56,9 @@ const INFO = {
 		},
 
 		{
-			title: "Slackers. - A Chat App",
+			title: "Slackers. - A Chat App (Work in Progress)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A dynamic and immersive messaging application designed to foster seamless communication and collaboration among users. Crafted using the powerful MERN stack – MongoDB, Express, React, and Node.js – this app redefines real-time messaging. With the integration of Socket.io, messages flow instantly, erasing the boundaries of time and distance. The user interface, elegantly styled with Material UI, offers a visually appealing experience that is both intuitive and engaging. 'Slackers' empowers users to create channels, exchange messages effortlessly.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
 			linkText: "View Project",
 			link: "https://github.com/Asianous/Slackers",
