@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import ContactForm from "../components/contactForm/contactForm";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -44,34 +45,27 @@ const Contact = () => {
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							I appreciate your desire to reach out to me. Your
-							feedback, questions, and suggestions are all valued.
-							For specific inquiries or remarks, you're welcome to
-							directly email me at &nbsp;{" "}
+							I'm grateful for your interest in reaching out. Your
+							feedback, questions, and suggestions are all highly
+							valued. If you have specific inquiries or comments,
+							please feel free to directly email me at &nbsp;{" "}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							. I make it a point to reply to all messages within
+							. I'm committed to responding to all messages within
 							24 hours, although there might be slight delays
-							during busier periods. An alternative way to get in
-							touch is by utilizing the contact form on my
-							website. Just complete the necessary fields, and
-							I'll respond promptly. Should you prefer a social
-							media connection, I can be located on [Instagram
-							handle omitted]. I frequently share updates and
-							interact with my audience there, so please don't
-							hesitate to get in contact. Your interest is greatly
-							appreciated, and I'm eagerly anticipating your
-							communication.{" "}
+							during busier periods. Another way to get in touch
+							is by using the contact form on my website. Once you
+							provide the necessary details, I'll promptly
+							respond. Your interest is truly appreciated, and I'm
+							eagerly anticipating your communication.{" "}
 						</div>
 					</div>
-
 					<div className="socials-container">
 						<div className="contact-socials">
 							<Socials />
 						</div>
 					</div>
-
 					<div className="page-footer">
 						<Footer />
 					</div>
