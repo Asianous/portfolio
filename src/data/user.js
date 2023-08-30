@@ -22,9 +22,13 @@ const INFO = {
 	},
 
 	about: {
-		title: "hi, I'm Dennis",
+		title: "hi, i'm Dennis.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Greetings! I am Dennis, a dedicated individual with a diverse range of hobbies and passions. Alongside my professional pursuits, I find immense joy in sports, particularly basketball, where I embrace the discipline, teamwork, and determination it instills. Beyond the physical arena, I am an avid gamer, engaging in a variety of genres to constantly challenge my strategic thinking and problem-solving skills.",
+		description2:
+			"My professional journey is centered around programming, where I thrive on crafting elegant solutions to intricate problems. I am a creative software engineer dedicated to enhancing lives through my valuable technical skills and experiences. With a background in retail and sales, I possess exceptional communication skills that enable me to connect with individuals at all levels and effectively convey solutions. This unique blend of technical prowess and interpersonal finesse allows me to contribute not only to cutting-edge projects but also to ensure that they resonate with users on a human level. My commitment to making a meaningful impact is evident in my approach to creating innovative solutions that simplify and enhance daily life.",
+		description3:
+			"Furthermore, my journey has been further enriched by my experience in General Assembly's Immersive Software Engineering program. This intensive and transformative learning experience honed my skills in a collaborative and fast-paced environment. Throughout the program, I delved deep into a wide array of programming languages and frameworks, solidifying my foundation in web development. The practical projects I undertook mirrored real-world challenges, equipping me with the problem-solving mindset and adaptability essential in today's dynamic tech landscape. The guidance of experienced mentors and the opportunity to collaborate with diverse peers added an invaluable dimension to my growth as a developer. I am eager to leverage this knowledge and skill set to contribute meaningfully to innovative projects and continue my journey of continuous improvement.",
 	},
 
 	projects: [
