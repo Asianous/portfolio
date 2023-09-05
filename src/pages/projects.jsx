@@ -39,8 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Creations I've crafted in my attempt to leave a
-							mark.
+							My crafted creations, aiming to make a mark.
 						</div>
 
 						<div className="subtitle projects-subtitle">

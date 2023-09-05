@@ -18,6 +18,7 @@ import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import Loader from "../components/loader/loader";
 
 import "./styles/homepage.css";
 
@@ -102,7 +103,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage-photo.jpg"
+											src="ny-pic.jpg"
 											alt="about"
 											className="homepage-image"
 											style={{ borderRadius: "10%" }}
