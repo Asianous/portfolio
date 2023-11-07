@@ -42,7 +42,7 @@ const INFO = {
 		{
 			title: "Touch Grass - A Valorant Lineup App",
 			description:
-				"Designed a versatile web app tailored for Valorant lineup curation, catering to gamers' needs. Simplifies lineup exploration by choosing agents and maps. Employed Express, MongoDB, and Node.js for full CRUD operations. Rigorously tested all backend routes. Used Mongoose for precise MongoDB schema design. Integrated OAuth2 API for seamless personalized user experiences in creating, modifying, or removing lineups.",
+				"Designed a versatile web app tailored for Valorant lineup curation, catering to gamers' needs. Simplifies lineup exploration by choosing agents and maps. Employed Express, MongoDB, and Node.js for full CRUD operations. Used Mongoose for precise MongoDB schema design. Integrated OAuth2 API for seamless personalized user experiences in creating, modifying, or removing lineups.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
 			linkText: "View Project",
 			link: "https://github.com/jabbacalvin56/valorant-lineups",
