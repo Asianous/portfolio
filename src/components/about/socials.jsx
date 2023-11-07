@@ -48,12 +48,12 @@ const Socials = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<div className="social-icon">
+					{/* <div className="social-icon">
 						<FontAwesomeIcon
 							icon={faInstagram}
 							className="social-icon"
 						/>
-					</div>
+					</div> */}
 					{/* <div className="social-text">Follow on Instagram</div> */}
 				</a>
 			</div>
